@@ -1,2 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
 @import "tailwindcss";
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+textarea, input[type="file"] {
+  padding: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.min-h-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
